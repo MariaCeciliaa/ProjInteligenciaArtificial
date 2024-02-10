@@ -6,8 +6,6 @@ class AssistenteRoupasClimatico:
         self.temperatura_atual = temperatura
 
     def recomendar_roupas(self):
-        if self.temperatura_atual is None:
-            return "Não foi possível determinar a temperatura."
 
         if self.temperatura_atual <= 18:
             return "É recomendado que você utilize roupas de frio, pois o clima está mais ameno. ❄️"

@@ -1,4 +1,4 @@
-class AssistenteTreinamentoGatos:
+class AssistenteTreinamentoGatosModelos:
     def __init__(self):
         self.idade = None
         self.condicao_fisica = None
@@ -48,7 +48,7 @@ A partir dos estudos feitos, o melhor treinamento para seu gato seria:
         return self.plano_exercicios_personalizado
 
 
-assistente_gatos_1 = AssistenteTreinamentoGatos()
+assistente_gatos_1 = AssistenteTreinamentoGatosModelos()
 
 idade_gato_1 = 3
 condicao_fisica_gato_1 = "boa"
@@ -61,7 +61,7 @@ plano_exercicios_recomendado = assistente_gatos_1.recomendar_plano_exercicios()
 print(plano_exercicios_recomendado)
 
 
-assistente_gatos_2 = AssistenteTreinamentoGatos()
+assistente_gatos_2 = AssistenteTreinamentoGatosModelos()
 
 idade_gato_2 = 11
 condicao_fisica_gato_2 = "intermediária"

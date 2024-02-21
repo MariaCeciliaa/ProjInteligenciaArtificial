@@ -20,12 +20,10 @@ class CoachBemEstarAnimal:
     def gerar_plano_exercicios(self):
         plano_exercicios = []
 
-        if self.idade <= 3 and self.condicao_fisica == "boa":
-            plano_exercicios.append("Brincadeiras leves e curtos períodos de exercício.")
-        elif self.idade > 3 and self.condicao_fisica == "boa":
-            plano_exercicios.append("Passeios diários e atividades mais intensas.")
-        else:
-            plano_exercicios.append("Consulte um veterinário para orientações específicas.")
+        if self.idade <= 9 and self.condicao_fisica == "boa":
+            plano_exercicios.append("Brincadeiras intensas e escalada em morros de grama.")
+        elif self.idade > 9 and self.condicao_fisica == "boa":
+            plano_exercicios.append("Passeios diários e atividades mais leves.")
         if "corrida" in self.historico_exercicios:
             plano_exercicios.append("Incluir corridas regulares no plano.")
         elif "caminhada" in self.historico_exercicios:

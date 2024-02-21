@@ -14,8 +14,6 @@ class AssistenteComprasModa:
             print("Recomendação de roupa: Terno ou vestido elegante.")
         elif "casual" in self.preferencias_estilo:
             print("Recomendação de roupa: Jeans e camiseta descontraída.")
-        else:
-            print("Recomendação de roupa: Shorts e camiseta grande.")
 
         for evento in self.eventos_planejados:
             if evento == "festa":
